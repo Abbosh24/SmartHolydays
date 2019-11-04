@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		630CBD7023222D69003A4D30 /* SettingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630CBD6F23222D69003A4D30 /* SettingManager.swift */; };
+		632C485B231E8C9000D63AC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632C485A231E8C9000D63AC9 /* AppDelegate.swift */; };
+		632C4862231E8C9300D63AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632C4861231E8C9300D63AC9 /* Assets.xcassets */; };
+		632C4865231E8C9300D63AC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632C4863231E8C9300D63AC9 /* LaunchScreen.storyboard */; };
+		632C486F2320382700D63AC9 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632C486E2320382700D63AC9 /* WelcomeViewController.swift */; };
+		632C4873232049A000D63AC9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 632C4872232049A000D63AC9 /* GoogleService-Info.plist */; };
+		632C48752320519F00D63AC9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632C48742320519F00D63AC9 /* SignUpViewController.swift */; };
+		632C4879232166C300D63AC9 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632C4878232166C300D63AC9 /* LogInViewController.swift */; };
+		632C487B23216CCC00D63AC9 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632C487A23216CCC00D63AC9 /* ForgotPasswordViewController.swift */; };
+		632C487D2321885D00D63AC9 /* Holiday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632C487C2321885D00D63AC9 /* Holiday.swift */; };
+		632C488023218BE300D63AC9 /* HolidayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632C487F23218BE300D63AC9 /* HolidayService.swift */; };
+		632C488323218ED200D63AC9 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632C488223218ED200D63AC9 /* APIClient.swift */; };
+		63749C8D23255F490024C18E /* HolidaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63749C8C23255F490024C18E /* HolidaysViewController.swift */; };
+		63A7C44D23262695004E695F /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A7C44C23262695004E695F /* MainNavigationController.swift */; };
+		63A7C45223263198004E695F /* HolidayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A7C45023263198004E695F /* HolidayTableViewCell.swift */; };
+		63A7C45323263198004E695F /* HolidayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63A7C45123263198004E695F /* HolidayTableViewCell.xib */; };
+		7301C2AF79444DA8A50EFB3C /* Pods_SmartHolidays.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D041EC7737617C0DC3C1A71E /* Pods_SmartHolidays.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44C959C253DCA17B9E88C541 /* Pods-SmartHolidays.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartHolidays.release.xcconfig"; path = "Target Support Files/Pods-SmartHolidays/Pods-SmartHolidays.release.xcconfig"; sourceTree = "<group>"; };
+		4D07E805E057725903CADB8C /* Pods-SmartHolidays.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartHolidays.debug.xcconfig"; path = "Target Support Files/Pods-SmartHolidays/Pods-SmartHolidays.debug.xcconfig"; sourceTree = "<group>"; };
+		630CBD6F23222D69003A4D30 /* SettingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingManager.swift; sourceTree = "<group>"; };
+		632C4857231E8C8F00D63AC9 /* SmartHolidays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHolidays.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		632C485A231E8C9000D63AC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		632C4861231E8C9300D63AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		632C4864231E8C9300D63AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		632C4866231E8C9300D63AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		632C486E2320382700D63AC9 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		632C4872232049A000D63AC9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		632C48742320519F00D63AC9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		632C4878232166C300D63AC9 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LogInViewController.swift; path = SmartHolidays/Controller/LogInViewController.swift; sourceTree = SOURCE_ROOT; };
+		632C487A23216CCC00D63AC9 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ForgotPasswordViewController.swift; path = SmartHolidays/Controller/ForgotPasswordViewController.swift; sourceTree = SOURCE_ROOT; };
+		632C487C2321885D00D63AC9 /* Holiday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holiday.swift; sourceTree = "<group>"; };
+		632C487F23218BE300D63AC9 /* HolidayService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidayService.swift; sourceTree = "<group>"; };
+		632C488223218ED200D63AC9 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		63749C8C23255F490024C18E /* HolidaysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidaysViewController.swift; sourceTree = "<group>"; };
+		63A7C44C23262695004E695F /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		63A7C45023263198004E695F /* HolidayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayTableViewCell.swift; sourceTree = "<group>"; };
+		63A7C45123263198004E695F /* HolidayTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HolidayTableViewCell.xib; sourceTree = "<group>"; };
+		D041EC7737617C0DC3C1A71E /* Pods_SmartHolidays.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartHolidays.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		632C4854231E8C8F00D63AC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7301C2AF79444DA8A50EFB3C /* Pods_SmartHolidays.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F1944AAE494C77B5CCD09BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D041EC7737617C0DC3C1A71E /* Pods_SmartHolidays.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		632C484E231E8C8F00D63AC9 = {
+			isa = PBXGroup;
+			children = (
+				632C4859231E8C8F00D63AC9 /* SmartHolidays */,
+				632C4858231E8C8F00D63AC9 /* Products */,
+				F618620FE900F1737D922A6A /* Pods */,
+				4F1944AAE494C77B5CCD09BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		632C4858231E8C8F00D63AC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				632C4857231E8C8F00D63AC9 /* SmartHolidays.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		632C4859231E8C8F00D63AC9 /* SmartHolidays */ = {
+			isa = PBXGroup;
+			children = (
+				632C488423218EDA00D63AC9 /* Manager */,
+				632C488123218BF600D63AC9 /* HolidayService */,
+				632C487E2321887500D63AC9 /* Model */,
+				632C486C2320359100D63AC9 /* View */,
+				632C486D232036D200D63AC9 /* Controller */,
+				63A7C45A23283903004E695F /* Supporting files */,
+			);
+			path = SmartHolidays;
+			sourceTree = "<group>";
+		};
+		632C486C2320359100D63AC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				632C4863231E8C9300D63AC9 /* LaunchScreen.storyboard */,
+				63A7C44C23262695004E695F /* MainNavigationController.swift */,
+				63A7C45023263198004E695F /* HolidayTableViewCell.swift */,
+				63A7C45123263198004E695F /* HolidayTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		632C486D232036D200D63AC9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				632C486E2320382700D63AC9 /* WelcomeViewController.swift */,
+				632C48742320519F00D63AC9 /* SignUpViewController.swift */,
+				632C4878232166C300D63AC9 /* LogInViewController.swift */,
+				632C487A23216CCC00D63AC9 /* ForgotPasswordViewController.swift */,
+				63749C8C23255F490024C18E /* HolidaysViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		632C487E2321887500D63AC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				632C487C2321885D00D63AC9 /* Holiday.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		632C488123218BF600D63AC9 /* HolidayService */ = {
+			isa = PBXGroup;
+			children = (
+				632C487F23218BE300D63AC9 /* HolidayService.swift */,
+			);
+			path = HolidayService;
+			sourceTree = "<group>";
+		};
+		632C488423218EDA00D63AC9 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				632C488223218ED200D63AC9 /* APIClient.swift */,
+				630CBD6F23222D69003A4D30 /* SettingManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		63A7C45A23283903004E695F /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				632C4861231E8C9300D63AC9 /* Assets.xcassets */,
+				632C485A231E8C9000D63AC9 /* AppDelegate.swift */,
+				632C4866231E8C9300D63AC9 /* Info.plist */,
+				632C4872232049A000D63AC9 /* GoogleService-Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		F618620FE900F1737D922A6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D07E805E057725903CADB8C /* Pods-SmartHolidays.debug.xcconfig */,
+				44C959C253DCA17B9E88C541 /* Pods-SmartHolidays.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		632C4856231E8C8F00D63AC9 /* SmartHolidays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 632C4869231E8C9300D63AC9 /* Build configuration list for PBXNativeTarget "SmartHolidays" */;
+			buildPhases = (
+				9369DF556D81CC9AFA25351B /* [CP] Check Pods Manifest.lock */,
+				632C4853231E8C8F00D63AC9 /* Sources */,
+				632C4854231E8C8F00D63AC9 /* Frameworks */,
+				632C4855231E8C8F00D63AC9 /* Resources */,
+				A6BED9D3395F4E63A59985DB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartHolidays;
+			productName = SmartHolidays;
+			productReference = 632C4857231E8C8F00D63AC9 /* SmartHolidays.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		632C484F231E8C8F00D63AC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = 1;
+				TargetAttributes = {
+					632C4856231E8C8F00D63AC9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 632C4852231E8C8F00D63AC9 /* Build configuration list for PBXProject "SmartHolidays" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 632C484E231E8C8F00D63AC9;
+			productRefGroup = 632C4858231E8C8F00D63AC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				632C4856231E8C8F00D63AC9 /* SmartHolidays */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		632C4855231E8C8F00D63AC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A7C45323263198004E695F /* HolidayTableViewCell.xib in Resources */,
+				632C4865231E8C9300D63AC9 /* LaunchScreen.storyboard in Resources */,
+				632C4862231E8C9300D63AC9 /* Assets.xcassets in Resources */,
+				632C4873232049A000D63AC9 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9369DF556D81CC9AFA25351B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartHolidays-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6BED9D3395F4E63A59985DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartHolidays/Pods-SmartHolidays-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartHolidays/Pods-SmartHolidays-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartHolidays/Pods-SmartHolidays-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		632C4853231E8C8F00D63AC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				630CBD7023222D69003A4D30 /* SettingManager.swift in Sources */,
+				632C48752320519F00D63AC9 /* SignUpViewController.swift in Sources */,
+				632C488023218BE300D63AC9 /* HolidayService.swift in Sources */,
+				63749C8D23255F490024C18E /* HolidaysViewController.swift in Sources */,
+				632C487D2321885D00D63AC9 /* Holiday.swift in Sources */,
+				63A7C44D23262695004E695F /* MainNavigationController.swift in Sources */,
+				63A7C45223263198004E695F /* HolidayTableViewCell.swift in Sources */,
+				632C487B23216CCC00D63AC9 /* ForgotPasswordViewController.swift in Sources */,
+				632C486F2320382700D63AC9 /* WelcomeViewController.swift in Sources */,
+				632C4879232166C300D63AC9 /* LogInViewController.swift in Sources */,
+				632C485B231E8C9000D63AC9 /* AppDelegate.swift in Sources */,
+				632C488323218ED200D63AC9 /* APIClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		632C4863231E8C9300D63AC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				632C4864231E8C9300D63AC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		632C4867231E8C9300D63AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		632C4868231E8C9300D63AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		632C486A231E8C9300D63AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D07E805E057725903CADB8C /* Pods-SmartHolidays.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NFRFKML995;
+				INFOPLIST_FILE = "$(SRCROOT)/SmartHolidays/Supporting files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abbos.SmartHolidays;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		632C486B231E8C9300D63AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44C959C253DCA17B9E88C541 /* Pods-SmartHolidays.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NFRFKML995;
+				INFOPLIST_FILE = "$(SRCROOT)/SmartHolidays/Supporting files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abbos.SmartHolidays;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		632C4852231E8C8F00D63AC9 /* Build configuration list for PBXProject "SmartHolidays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632C4867231E8C9300D63AC9 /* Debug */,
+				632C4868231E8C9300D63AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		632C4869231E8C9300D63AC9 /* Build configuration list for PBXNativeTarget "SmartHolidays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632C486A231E8C9300D63AC9 /* Debug */,
+				632C486B231E8C9300D63AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 632C484F231E8C8F00D63AC9 /* Project object */;
+}
